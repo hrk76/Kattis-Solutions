@@ -5,12 +5,10 @@ using namespace std;
 
 int main()
 {
-    int numContestants;
-    int numProblems;
+    int numContestants, numProblems;
     string userAnswer;
 
-    cin >> numContestants;
-    cin >> numProblems;
+    cin >> numContestants >> numProblems;
 
     for (int i = 0; i < numContestants; i++)
     {
