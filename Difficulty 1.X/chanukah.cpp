@@ -12,6 +12,7 @@ int main()
 	{
 		cin >> setNum >> days;
 
+		// sum = n(n + 1) / 2 + n
 		candles = days * (days + 3) / 2;
 
 		cout << setNum << " " << candles << endl;
