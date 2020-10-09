@@ -8,6 +8,7 @@ int main()
 
 	cin >> numJunctions >> numSwitches;
 
+	// numSwitches must be even to complete a loop. numJunctions is irrelevant
 	if (numSwitches % 2 == 0)
 	{
 		cout << "possible";
